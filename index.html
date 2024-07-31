@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Concave+B&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">NETFLIX</div>
+            <div class="actions">
+                <select class="language-dropdown">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <!-- Add more languages as needed -->
+                </select>
+                <button class="sign-in">Sign In</button>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Unlimited movies, TV shows and more</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <p class="subheading">Ready to watch? Enter your email to create or restart your membership</p>
+        <form class="email-form" id="email-form">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Get Started</button>
+        </form>
+    </section>
+    <section class="step" id="step-one">
+        <h2>STEP 1 OF 3</h2>
+        <p>Welcome back!</p>
+        <p>Joining Netflix is easy.</p>
+        <p>Enter your password and you'll be watching in no time.</p>
+        <form class="login-form">
+            <label for="email">Email</label>
+            <input type="email" id="email" readonly>
+            <label for="password">Enter your password</label>
+            <input type="password" id="password" placeholder="Password" required>
+            <a href="#" id="forgot-password">Forgot your password?</a>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    <section class="features">
+        <div class="feature">
+            <img src="images/feature-1.png" alt="Enjoy on your TV">
+            <div class="text">
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="feature">
+            <div class="text">
+                <h2>Download your shows to watch offline</h2>
+                <p>Save your favourites easily and always have something to watch.</p>
+            </div>
+            <img src="images/feature-2.png" alt="Download your shows to watch offline">
+        </div>
+        <hr>
+        <div class="feature">
+            <img src="images/feature-3.png" alt="Watch everywhere">
+            <div class="text">
+                <h2>Watch everywhere</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="feature">
+            <div class="text">
+                <h2>Create profiles for kids</h2>
+                <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+            </div>
+            <img src="images/feature-4.png" alt="Create profiles for kids">
+        </div>
+    </section>
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="question">
+            <span>What is Netflix?</span>
+            <span class="plus">+</span>
+        </div>
+        <div class="question">
+            <span>How much does Netflix cost?</span>
+            <span class="plus">+</span>
+        </div>
+        <div class="question">
+            <span>Where can I watch?</span>
+            <span class="plus">+</span>
+        </div>
+        <div class="question">
+            <span>How do I cancel?</span>
+            <span class="plus">+</span>
+        </div>
+        <div class="question">
+            <span>What can I watch on Netflix?</span>
+            <span class="plus">+</span>
+        </div>
+        <div class="question">
+            <span>Is Netflix good for kids?</span>
+            <span class="plus">+</span>
+        </div>
+    </section>
+    <section class="email-section">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <form class="email-form">
+            <input type="email" id="footer-email" placeholder="Email address" required>
+            <button type="submit">Get Started</button>
+        </form>
+    </section>
+    <div class="separator"></div>
+    <footer class="footer">
+        <p>Questions? Call 000-800-919-1694</p>
+        <div class="matrix">
+            <div>FAQ</div>
+            <div>Help Centre</div>
+            <div>Account</div>
+            <div>Media Centre</div>
+            <div>Investor Relations</div>
+            <div>Jobs</div>
+            <div>Ways to Watch</div>
+            <div>Terms of Use</div>
+            <div>Privacy</div>
+            <div>Cookie Preferences</div>
+            <div>Corporate Information</div>
+            <div>Contact Us</div>
+            <div>Speed Test</div>
+            <div>Legal Notices</div>
+            <div>Only on Netflix</div>
+        </div>
+        <div class="language-dropdown">
+            <select>
+                <option>English</option>
+                <!-- Add more language options as needed -->
+            </select>
+        </div>
+        <div class="logo">Netflix</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
